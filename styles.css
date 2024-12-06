@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Класс для 1 шрифта */
+.handjet-unique {
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "ELGR" 1,
+        "ELSH" 2;
+}
+
+/* Класс для 2 шрифта */
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #00bfa5; 
+}
+
+.current-page {
+    font-weight: bold;
+    color: #00bfa5; 
+}
+
+main {
+    padding: 20px;
+}
+
+h1{
+    font-size: 40px;
+    color: #4b4242;
+}
+h2{
+    font-size: 25px;
+    color: black;
+}
+
+.content-image {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+}
+
+.table-container {
+    margin-top: 30px;
+}
+
+table {
+    margin-left: 10%;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #857e7e;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(201, 188, 188);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    color: #4b4242;
+}
+
+/* Форма обратной связи*/
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 70px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+    /* Форма авторизации*/
+
+    .auth-form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url('https://avatars.mds.yandex.net/i?id=2be0a3922fbfdd0c2f25fa3cb36a37d2_l-3142098-images-thumbs&n=13'); 
+        background-size: cover;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    select {
+        padding: 8px;
+        margin: 10px 0;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .auth-form-container form {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 300px;
+    }
+
+    input[type="checkbox"] {
+        width: auto;
+    }
